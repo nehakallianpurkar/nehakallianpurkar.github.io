@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+	background: url("../images/beans2.png");
+	background-size: cover;
+	font-style: uppercase;
+	@import url(https://fonts.googleapis.com/css?family=Lobster);
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	font-size: 180px;
+	color: #EDE646;
+}
+
+
+#slogan {
+	font-size: 100px;
+	color: #FF4449;
+}
+
+#navigation {
+	font-size: 180px;
+	color: #EDE646;
+}
