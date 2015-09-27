@@ -81,6 +81,13 @@ p6{
 
 a{
 	display: block;
+	padding: 20px;
+	margin: 20px;
+}
+
+h1:hover {
+	background-color: #aaaaaa;
+	color: white;
 }
 
 a:hover {
