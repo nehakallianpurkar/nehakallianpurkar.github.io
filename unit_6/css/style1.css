@@ -20,6 +20,10 @@ article {
 	padding-left: 200px;
 }
 
+article img {
+	width:275px;
+}
+
 aside {
 	display: block;
 	width: 400px;
@@ -34,9 +38,12 @@ p1{
 }
 
 p2{
+	display: block;
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
 	font-weight: 200;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 p3{
@@ -52,9 +59,12 @@ p4{
 }
 
 p5{
+	display: block;
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
 	font-weight: 200;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 p6{
@@ -63,21 +73,10 @@ p6{
 	font-weight: 200;
 }
 
-#chai{ 
+aside img {
 	width: 250px;
 }
 
-#cocoa{ 
-	width: 250px;
-}
-
-#cupcakes{ 
-	width: 250px;
-}
-
-#nuts{ 
-	width: 250px;
-}
 
 a{
 	display: block;
