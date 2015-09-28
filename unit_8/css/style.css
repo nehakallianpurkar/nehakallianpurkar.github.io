@@ -1,0 +1,44 @@
+body {
+	background: url("../images/beans2.png");
+	background-size: cover;
+	@import url(https://fonts.googleapis.com/css?family=Lobster);
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	text-align: center;
+	font-size: 180px;
+	color: #EDE646;
+}
+
+span {
+	display: inline-block;
+	text-align: center;
+	font-size: 75px;
+	color: #FF4449;
+	padding-right: 30%;
+	padding-left: 30%;
+}
+
+
+div {
+	color: #EDE646;
+	display: block;
+	float: right;
+	margin: 2%;
+	font-size: 180px;
+}
+
+a {
+	padding-right: 2%;
+	padding-left: 2%;
+	text-decoration: none;
+	color: #EDE646;
+}
+
+a:hover {
+	opacity: 0.5;
+	background: gray;
+}
+
+
