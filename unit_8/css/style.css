@@ -1,5 +1,6 @@
 body {
 	background: url("../images/beans2.png");
+	opacity: 0.8;
 	background-size: cover;
 	@import url(https://fonts.googleapis.com/css?family=Lobster);
 	font-family: 'Lobster', cursive;

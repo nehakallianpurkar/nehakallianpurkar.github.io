@@ -1,0 +1,377 @@
+body {
+	background: url("../images/beans2.png");
+	opacity: 0.8;
+	background-size: cover;
+	@import url(https://fonts.googleapis.com/css?family=Lobster);
+	font-family: 'Lobster', cursive;
+}
+
+.top {
+	padding: .2em .5em;
+	font-size: 144px;
+	color: #EDE646;
+	background-color: #FF4449;
+	opacity: 0.8;
+}
+
+div a {
+	text-decoration: none;
+	color: #EDE646;
+}
+
+#menu {
+	height: ;
+}
+
+#search {
+	height: ;
+}
+
+form {
+	height: ;
+}
+
+#container {
+	width: 140%;
+	margin: 5px auto;
+	padding-left: 2em;
+
+}
+
+#article {
+	display: inline-block;
+	background:#D3D3D3;
+	opacity: 0.8;
+	float: left;
+	width: 1090px;
+	margin: 0;
+	padding: 1em;
+}
+
+#article p {
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	font-weight: bolder;
+	padding: 1% 3%;
+	margin: 1% auto;
+}
+
+#article a {
+	text-decoration: none;
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #000000;	
+	padding-left: 3%;
+}
+
+h1 {
+	display: inline-block;
+	text-align: left;
+	@import url(https://fonts.googleapis.com/css?family=Lobster);
+	font-family: 'Lobster', cursive;
+	font-size:75px;
+	color: #FF4449;
+	width: 1000px;
+	padding: 1% 2%;
+}
+
+h2 {
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #000000;	
+	padding: 0 3%;
+}
+
+#aside {
+	margin: 0;
+	padding: .5em;
+}
+
+li {
+	@import url(https://fonts.googleapis.com/css?family=Lobster);
+	font-family: 'Lobster', cursive;
+	font-size: 45px;
+	color: #EDE646;
+	text-align: left;
+	text-decoration: none;
+	background: none;
+	padding: .5em auto;
+	text-indent: 50px;
+}
+
+div a:hover {
+	opacity: 0.5;
+	background: #FF4449;
+}
+
+#article h1:hover {
+	opacity: 0.5;
+	background: #FF4449;
+	color: #EDE646;
+}
+
+#aside a:hover{
+	opacity: 0.5;
+	background: #FF4449;
+}
+
+#title:hover {
+	color: #EDE646;
+	background: none;
+}
+
+@media only screen and (max-width: 800px){
+body {
+		background: url("../images/beans2.png");
+		opacity: 0.8;
+		background-size: cover;
+		@import url(https://fonts.googleapis.com/css?family=Lobster);
+		font-family: 'Lobster', cursive;
+	}
+
+	.top {
+		padding: .2em .5em;
+		font-size: 130px;
+		color: #EDE646;
+		background-color: #FF4449;
+		opacity: 0.8;
+	}
+
+	div a {
+		text-decoration: none;
+		color: #EDE646;
+	}
+
+	#menu {
+		height: ;
+	}
+
+	#search {
+		height: ;
+	}
+
+	form {
+		height: ;
+	}
+
+	#container {
+		width: 100%;
+		margin: 5px auto;
+		padding-left: 2em;
+
+	}
+
+	#article {
+		display: inline-block;
+		background:#D3D3D3;
+		opacity: 0.8;
+		float: left;
+		margin: 0;
+		padding: 1em;
+	}
+
+	#article p {
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		color: #000000;
+		font-weight: bolder;
+		padding: 1% 3%;
+		margin: 1% auto;
+	}
+
+	#article a {
+		text-decoration: none;
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #000000;	
+		padding-left: 3%;
+	}
+
+	h1 {
+		display: inline-block;
+		text-align: left;
+		@import url(https://fonts.googleapis.com/css?family=Lobster);
+		font-family: 'Lobster', cursive;
+		font-size:60px;
+		color: #FF4449;
+		width: 1000px;
+		padding: 1% 2%;
+	}
+
+	h2 {
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #000000;	
+		padding: 0 3%;
+	}
+
+	#aside {
+		margin: 0;
+		padding: .5em;
+	}
+
+	li {
+		@import url(https://fonts.googleapis.com/css?family=Lobster);
+		font-family: 'Lobster', cursive;
+		font-size: 45px;
+		color: #EDE646;
+		text-align: left;
+		text-decoration: none;
+		background: none;
+		padding: .5em auto;
+		text-indent: 50px;
+	}
+
+	div a:hover {
+		opacity: 0.5;
+		background: #FF4449;
+	}
+
+	#article h1:hover {
+		opacity: 0.5;
+		background: #FF4449;
+		color: #EDE646;
+	}
+
+	#aside a:hover{
+		opacity: 0.5;
+		background: #FF4449;
+	}
+
+	#title:hover {
+		color: #EDE646;
+		background: none;
+	}
+}
+
+@media (max-width: 480px) {
+	background: url("../images/beans2.png");
+		opacity: 0.8;
+		background-size: cover;
+		@import url(https://fonts.googleapis.com/css?family=Lobster);
+		font-family: 'Lobster', cursive;
+	}
+
+	.top {
+		padding: .2em .5em;
+		font-size: 120px;
+		color: #EDE646;
+		background-color: #FF4449;
+		opacity: 0.8;
+	}
+
+	div a {
+		text-decoration: none;
+		color: #EDE646;
+	}
+
+	#menu {
+		height: ;
+	}
+
+	#search {
+		height: ;
+	}
+
+	form {
+		height: ;
+	}
+
+	#container {
+		width: 100%;
+		margin: 5px auto;
+		padding-left: 2em;
+
+	}
+
+	#article {
+		display: inline-block;
+		background:#D3D3D3;
+		opacity: 0.8;
+		margin: 0;
+		padding: 1em;
+	}
+
+	#article p {
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		color: #000000;
+		font-weight: bolder;
+		padding: 1% 3%;
+		margin: 1% auto;
+	}
+
+	#article a {
+		text-decoration: none;
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #000000;	
+		padding-left: 3%;
+	}
+
+	h1 {
+		display: inline-block;
+		text-align: left;
+		@import url(https://fonts.googleapis.com/css?family=Lobster);
+		font-family: 'Lobster', cursive;
+		font-size:75px;
+		color: #FF4449;
+		width: 1000px;
+		padding: 1% 2%;
+	}
+
+	h2 {
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #000000;	
+		padding: 0 3%;
+	}
+
+	#aside {
+		margin: 0;
+		padding: .5em;
+	}
+
+	li {
+		@import url(https://fonts.googleapis.com/css?family=Lobster);
+		font-family: 'Lobster', cursive;
+		font-size: 45px;
+		color: #EDE646;
+		text-align: left;
+		text-decoration: none;
+		background: none;
+		padding: .5em auto;
+		text-indent: 50px;
+	}
+
+	div a:hover {
+		opacity: 0.5;
+		background: #FF4449;
+	}
+
+	#article h1:hover {
+		opacity: 0.5;
+		background: #FF4449;
+		color: #EDE646;
+	}
+
+	#aside a:hover{
+		opacity: 0.5;
+		background: #FF4449;
+	}
+
+	#title:hover {
+		color: #EDE646;
+		background: none;
+	}
+}
