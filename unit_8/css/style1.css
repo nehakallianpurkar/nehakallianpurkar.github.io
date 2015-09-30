@@ -31,9 +31,10 @@ div a {
 	display: inline;
 }
 
-form {
-	height: ;
+#searchbar input {
+	font-size: 25px;
 }
+
 
 #container {
 	width: 140%;
@@ -42,7 +43,7 @@ form {
 
 }
 
-#article {
+article {
 	display: inline-block;
 	background:#D3D3D3;
 	opacity: 0.8;
@@ -52,7 +53,7 @@ form {
 	padding: 1em;
 }
 
-#article p {
+p {
 	@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
@@ -62,7 +63,7 @@ form {
 	margin: 1% auto;
 }
 
-#article a {
+article a {
 	text-decoration: none;
 	@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 700);
 	font-family: 'Open Sans', sans-serif;
@@ -90,7 +91,7 @@ h2 {
 	padding: 0 3%;
 }
 
-#aside {
+aside {
 	margin: 0;
 	padding: .5em;
 }
@@ -112,13 +113,13 @@ div a:hover {
 	background: #FF4449;
 }
 
-#article h1:hover {
+article h1:hover {
 	opacity: 0.5;
 	background: #FF4449;
 	color: #EDE646;
 }
 
-#aside a:hover{
+aside a:hover{
 	opacity: 0.5;
 	background: #FF4449;
 }

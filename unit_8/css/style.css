@@ -60,7 +60,7 @@ h1 {
 span {
 	display: inline-block;
 	text-align: center;
-	font-size: 60px;
+	font-size: 40px;
 	color: #FF4449;
 	padding-right: 30%;
 	padding-left: 30%;
@@ -72,6 +72,7 @@ div {
 	float: none;
 	margin: 2%;
 	font-size: 144px;
+	text-align: center;
 	}
 
 a {
@@ -101,7 +102,7 @@ h1 {
 span {
 	display: inline-block;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 	color: #FF4449;
 	}
 
@@ -110,7 +111,8 @@ div {
 	display: block;
 	float: right;
 	margin: 2%;
-	font-size: 86px;
+	font-size: 36px;
+	text-align: center;
 	}
 
 a {
